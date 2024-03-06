@@ -1,0 +1,1 @@
+export const GTAG = 'UA-163844688-1';

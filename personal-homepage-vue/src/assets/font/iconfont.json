@@ -1,0 +1,23 @@
+{
+  "id": "4137688",
+  "name": "3dprint",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4880413",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15838548",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}
