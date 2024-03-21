@@ -8,7 +8,7 @@ import TimelineSection from '@/components/home/timeline.vue';
 </script>
 
 <template>
-  <div></div>
+  <div> 123456789 </div>
 </template>
 
 <style scoped></style>
