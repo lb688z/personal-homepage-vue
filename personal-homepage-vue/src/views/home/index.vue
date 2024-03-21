@@ -9,6 +9,7 @@ import TimelineSection from '@/components/home/timeline.vue';
 
 <template>
   <div> 123456789 </div>
+  <div> abcdef </div>
 </template>
 
 <style scoped></style>
