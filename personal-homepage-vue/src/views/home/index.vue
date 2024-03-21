@@ -9,7 +9,7 @@ import TimelineSection from '@/components/home/timeline.vue';
 
 <template>
   <div> 123456789 </div>
-  <div> abcdef </div>
+  <div> hello world </div>
 </template>
 
 <style scoped></style>
