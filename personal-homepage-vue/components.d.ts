@@ -7,15 +7,21 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    About: typeof import('./src/components/home/about.vue')['default']
+    Button: typeof import('./src/components/common/button.vue')['default']
+    Cursor: typeof import('./src/components/common/cursor.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Hero: typeof import('./src/components/home/hero.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+    ProgressIndicator: typeof import('./src/components/common/progress-indicator.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
+    Timeline: typeof import('./src/components/home/timeline.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }

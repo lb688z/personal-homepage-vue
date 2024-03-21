@@ -1,4 +1,11 @@
-<script setup lang="ts" name="HomePage"></script>
+<script setup lang="ts" name="HomePage">
+import Cursor from '@/components/common/cursor.vue';
+import ProgressIndicator from '@/components/common/progress-indicator.vue';
+import AboutSection from '@/components/home/about.vue';
+import HeroSection from '@/components/home/hero.vue';
+import useState from '@/utils/useState';
+import TimelineSection from '@/components/home/timeline.vue';
+</script>
 
 <template>
   <div></div>
