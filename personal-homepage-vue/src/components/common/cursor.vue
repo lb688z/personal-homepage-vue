@@ -74,3 +74,5 @@ useEffect(() => {
     <div ref="follower" :class="`${styles.cursorFollower} ${CURSOR_STYLES.FOLLOWER}`" />
   </div>
 </template>
+
+<style lang="scss"></style>
